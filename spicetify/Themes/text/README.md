@@ -80,6 +80,18 @@
 
 ![ForestGreen](screenshots/ForestGreen.png)
 
+### EverforestDarkHard
+
+![EverforestDarkHard](screenshots/EverforestDarkHard.png)
+
+### EverforestDarkMedium
+
+![EverforestDarkMedium](screenshots/EverforestDarkMedium.png)
+
+### EverforestDarkSoft
+
+![EverforestDarkSoft](screenshots/EverforestDarkSoft.png)
+
 ## More
 
 ### Description
@@ -103,6 +115,7 @@ created by [darkthemer](https://github.com/darkthemer/)
     -   https://github.com/rose-pine/rose-pine-theme
     -   https://github.com/altercation/solarized
     -   https://github.com/enkia/tokyo-night-vscode-theme
+    -   https://github.com/sainnhe/everforest
 
 -   **SUGGESTION:** Check the very top of `user.css` for user settings
 
@@ -164,7 +177,7 @@ created by [darkthemer](https://github.com/darkthemer/)
     --border-style: solid; /* dotted | dashed | solid | double | groove | ridge | inset | outset */
     --border-transition: 0.2s ease; /* 'none' to disable  */
 
-    --global-nav-margin-top: 40px /* set to '0px' if you disabled window controls */
+    --global-nav-margin-top: 50px; /* set to '0px' if you disabled window controls */
 }
 ```
 
@@ -181,6 +194,7 @@ created by [darkthemer](https://github.com/darkthemer/)
     position: absolute;
     right: 0;
     z-index: 999;
+
     backdrop-filter: brightness(2.12);
     /* page zoom [ctrl][+] or [ctrl][-]
        edit width and height accordingly */

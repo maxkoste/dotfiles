@@ -3,7 +3,7 @@
 MAX_LABEL_LENGTH=30
 
 if ! pgrep -x "Spotify" >/dev/null; then
-	sketchybar --set spotify label="" icon.color=0xffa6da95
+	sketchybar --set spotify label="" icon.color=00x00000000 #No logo if nothings playing
 	exit 0
 fi
 

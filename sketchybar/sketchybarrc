@@ -3,7 +3,7 @@
 PLUGIN_DIR="$CONFIG_DIR/plugins"
 ##### Bar Appearance #####
 
-sketchybar --bar position=top height=40 blur_radius=50 color="$TRANSPARENT" corner_radius=0 margin=0 y_offset=0
+sketchybar --bar position=top height=30 blur_radius=50 color=0x00ffffff corner_radius=20 margin=0 y_offset=4
 
 ##### Defaults #####
 
@@ -71,7 +71,6 @@ sketchybar --set left_items \
 	background.margin=20
 
 ##### Adding Right Items #####
-#
 sketchybar --add item calendar right \
 	--set calendar icon="" \
 	label.font="SF Pro:Regular:14.0" \
@@ -95,7 +94,6 @@ Spotify currently playing label
  	script="$HOME/.config/sketchybar/items/spotify.sh" \
  	icon.font="Hack Nerd Font:Bold:18.0" \
 	icon= \
- 	icon.color="$GREEN" \
  	label.font="SF Pro:Regular:14.0" \
  	update_freq=4 \
  	background.padding_right=2

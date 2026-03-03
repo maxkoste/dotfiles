@@ -7,11 +7,11 @@ return {
 	--     },
 	--   },
 	-- },
-	{
-	  "neanias/everforest-nvim",
-	  lazy = false,
-	  priority = 1000,
-	},
+	-- {
+	--   "neanias/everforest-nvim",
+	--   lazy = false,
+	--   priority = 1000,
+	-- },
 	-- {
 	--   "ellisonleao/gruvbox.nvim",
 	--   opts = {
@@ -63,9 +63,16 @@ return {
 	-- 	end,
 	-- },
 	{
-		"LazyVim/LazyVim",
-		opts = {
-			colorscheme = "everforest",
-		},
+		"rose-pine/neovim",
+		name = "rose-pine",
+		config = function()
+			vim.cmd("colorscheme rose-pine")
+		end
 	},
+	-- {
+	-- "LazyVim/LazyVim",
+	-- opts = {
+	-- 	colorscheme = "nightfox",
+	-- },
+	-- },
 }

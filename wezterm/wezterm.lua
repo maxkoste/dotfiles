@@ -46,15 +46,15 @@ config = {
 		},
 	},
 
-	-- color_scheme = "Guezwhoz",
-	color_scheme = "Dawn (terminal.sexy)",
+	color_scheme = "Rosé Pine (Gogh)",
+	-- color_scheme = "Dawn (terminal.sexy)",
 	-- color_scheme = "Gruvbox dark, hard (base16)",
 
 	-- font = wezterm.font("JetBrains Mono", { weight = "Bold" }),
 	font_size = 16,
 	line_height = 1.1;
 
-	-- window_background_opacity = 0.9,
+	-- window_background_opacity = 0.94,
 	-- macos_window_background_blur = 60,
 	window_decorations = "RESIZE",
 	send_composed_key_when_left_alt_is_pressed = true,
