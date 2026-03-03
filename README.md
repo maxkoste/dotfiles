@@ -1,16 +1,16 @@
-# 🛠️ Nvim and Tmux Config
+# Nvim and Tmux Config
 
 This repository contains my personal configuration for **Neovim** and **Tmux** aswell as my config for sketchybar and Spicetify.
 
-## ✨ Features
+## Features
 
-- **Transparent Neovim UI** — integrates cleanly with your terminal theme
+- **Transparent Neovim UI** that integrates cleanly with your terminal theme
 - Tmux setup with battery, online-status and transparency to adopt your terminal theme
 - Plugin-managed with TPM(tmux) and LazyVim
 
 ## Language Support
 
-✅ Pre-configured for:
+Pre-configured for:
 
 - Java (with **Maven** and **Gradle**)
 - C / C++
