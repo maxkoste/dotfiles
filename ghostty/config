@@ -1,0 +1,8 @@
+theme = Rose Pine
+background-blur-radius = 70
+font-size = 20
+background-opacity = 1
+mouse-hide-while-typing = true
+macos-titlebar-proxy-icon = hidden
+macos-window-buttons = visible
+title = " "

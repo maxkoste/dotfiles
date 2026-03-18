@@ -124,6 +124,10 @@ if.app-id = 'com.github.wez.wezterm'
 run = "move-node-to-workspace 2 --focus-follows-window"
 
 [[on-window-detected]]
+if.app-id = 'com.mitchellh.ghostty'
+run = "move-node-to-workspace 2 --focus-follows-window"
+
+[[on-window-detected]]
 if.app-id = 'dev.zed.Zed'
 run = "move-node-to-workspace 2 --focus-follows-window"
 
@@ -148,5 +152,6 @@ if.app-id = 'com.spotify.client'
 run = "move-node-to-workspace 5 --focus-follows-window"
 
 [[on-window-detected]]
-if.app-id = 'com.valvesoftware.steam.helper'
-run = "move-node-to-workspace 6 --focus-follows-window"
+if.app-id = 'com.apple.clock'
+run = 'layout floating'
+
