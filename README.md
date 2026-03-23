@@ -5,7 +5,6 @@
   - [Features](#features)
   - [Language Support](#language-support)
   - [TMUX / NVIM](#tmux-nvim)
-  - [SPICETIFY/SKETCHYBAR](#spicetifysketchybar)
 <!--toc:end-->
 
 This repository contains my personal configuration for **Neovim**
@@ -31,4 +30,3 @@ Pre-configured for:
 ## TMUX / NVIM
 
 <img width="1800" height="1169" alt="image" src="https://github.com/user-attachments/assets/490069c7-0d87-4f5b-ad1f-ff14ae88914e" />
-
