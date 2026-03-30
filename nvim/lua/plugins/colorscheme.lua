@@ -1,9 +1,16 @@
 return {
+	-- {
+	-- 	"rose-pine/neovim",
+	-- 	name = "rose-pine",
+	-- 	config = function()
+	-- 		vim.cmd("colorscheme rose-pine")
+	-- 	end
+	-- },
 	{
-		"rose-pine/neovim",
-		name = "rose-pine",
-		config = function()
-			vim.cmd("colorscheme rose-pine")
+		"shaunsingh/nord.nvim",
+		name = "nord",
+		config = function ()
+			vim.cmd("colorscheme nord")
 		end
-	},
+	}
 }
